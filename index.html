@@ -4,42 +4,46 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ElectroDeck – Electronics 1 Flashcards</title>
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Icons & Manifest -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="manifest" href="manifest.json" />
+
+  <!-- Styles -->
   <link rel="stylesheet" href="styles/main.css" />
 </head>
 <body>
-  <header>
-    <h1>⚡ ElectroDeck</h1>
-    <p>Explore Electronics 1 topics through interactive flashcards.</p>
-    <nav>
+  <main class="deck">
+    <!-- Topic Navigation -->
+    <aside class="topic-nav">
       <ul id="topic-nav">
-        <li data-topic="fundamentals">Fundamentals</li>
-        <li data-topic="introsemiconductors">Introduction of Semiconductors</li>
-        <li data-topic="semiconductor-diodes">Semiconductor Diodes</li>
-        <li data-topic="diodes">Diodes</li>
-        <li data-topic="special-diodes-and-applications">Special Diodes and Applications</li>
-        <li data-topic="bjts">BJTs</li>
-        <li data-topic="fets">FETs</li>
-        <li data-topic="combinational">Combinational Circuits</li>
+        <li data-file="introsemiconductors.json">Intro to Semiconductors</li>
+        <li data-file="semiconductor-diodes.json">Diodes</li>
+        <li data-file="special-diodes-and-applications.json">Special Diodes</li>
+        <li data-file="fets.json">FETs</li>
+        <li data-file="bjts.json">BJTs</li>
+        <li data-file="combinational.json">Combinational Logic</li>
+        <li data-file="fundamentals.json">Fundamentals</li>
       </ul>
-    </nav>
-  </header>
+    </aside>
 
-  <main>
-    <section id="flashcard-viewer">
-      <div class="card" id="card">
-        <div class="front" id="question">Click a topic to begin.</div>
-        <div class="back" id="answer"></div>
-      </div>
-      <div class="controls">
-        <button id="flip">Flip</button>
-        <button id="next">Next</button>
-        <button id="bookmark">🔖</button>
+    <!-- Flashcard Display -->
+    <section class="flashcard-container">
+      <div class="flashcard" id="flashcard">
+        <div class="card-face card-front" id="card-question">Loading question...</div>
+        <div class="card-face card-back" id="card-answer">Loading answer...</div>
       </div>
     </section>
+
+    <!-- Controls -->
+    <nav class="controls">
+      <button id="flip" aria-label="Flip card">Flip</button>
+      <button id="next" aria-label="Next card">Next</button>
+      <button id="bookmark" aria-label="Bookmark card">Bookmark</button>
+    </nav>
   </main>
 
+  <!-- Scripts -->
   <script src="scripts/flashcard.js"></script>
 </body>
 </html>

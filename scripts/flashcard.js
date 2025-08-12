@@ -1,14 +1,38 @@
-let currentDeck = [];
-let currentIndex = 0;
-let flipped = false;
-
-const questionEl = document.getElementById("question");
-const answerEl = document.getElementById("answer");
+const flashcard = document.getElementById("flashcard");
 const flipBtn = document.getElementById("flip");
 const nextBtn = document.getElementById("next");
 const bookmarkBtn = document.getElementById("bookmark");
 const topicNav = document.getElementById("topic-nav");
 
+let cards = [];
+let currentIndex = 0;
+
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/sw.js").then(() => {
+    console.log("Service Worker registered.");
+  });
+}
+
+// Load cards from JSON file
+async function loadCards(topicFile) {
+  try {
+    const response = await fetch(`./${topicFile}`);
+    const data = await response.json();
+
+    if (!Array.isArray(data)) {
+      console.error("Invalid JSON format: expected an array.");
+      return;
+    }
+
+    cards = data;
+    currentIndex = 0;
+    showCard(currentIndex);
+  } catch (error) {
+    console.error("Failed to load cards:", error);
+  }
+}
+
+// Display current card
 function showCard(index) {
   const card = cards[index];
   if (!card) {
@@ -16,65 +40,38 @@ function showCard(index) {
     return;
   }
 
-  document.getElementById('card-question').textContent = card.question;
-  document.getElementById('card-answer').textContent = card.answer;
+  document.getElementById("card-question").textContent = card.question;
+  document.getElementById("card-answer").textContent = card.answer;
+  flashcard.classList.remove("flipped");
 }
 
-
-topicNav.addEventListener("click", async (e) => {
-  if (e.target.tagName === "LI") {
-    const topic = e.target.dataset.topic;
-    await loadDeck(`data/${topic}.json`);
-    showCard(0);
-  }
-});
-
+// Flip card
 flipBtn.addEventListener("click", () => {
-  flipped = !flipped;
-  updateCard();
+  flashcard.classList.toggle("flipped");
 });
 
+// Next card
 nextBtn.addEventListener("click", () => {
-  currentIndex = (currentIndex + 1) % currentDeck.length;
-  flipped = false;
+  currentIndex = (currentIndex + 1) % cards.length;
   showCard(currentIndex);
 });
 
+// Bookmark card
 bookmarkBtn.addEventListener("click", () => {
-  const card = currentDeck[currentIndex];
-  const bookmarks = JSON.parse(localStorage.getItem("bookmarks") || "[]");
-  bookmarks.push(card);
-  localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
-  bookmarkBtn.textContent = "✅";
-  setTimeout(() => (bookmarkBtn.textContent = "🔖"), 1000);
+  alert(`Bookmarked: "${cards[currentIndex]?.question}"`);
 });
 
-async function loadDeck(path) {
-  try {
-    const res = await fetch(path);
-    if (!res.ok) throw new Error("Deck not found");
-    currentDeck = await res.json();
-    currentIndex = 0;
-    showCard(currentIndex);
-  } catch (err) {
-    questionEl.textContent = "⚠️ Unable to load flashcards.";
-    answerEl.textContent = "";
-    console.error("Flashcard load error:", err);
+// Topic navigation
+topicNav.addEventListener("click", async (e) => {
+  if (e.target.tagName === "LI") {
+    const topicFile = e.target.dataset.file;
+    if (topicFile) {
+      await loadCards(topicFile);
+    }
   }
-}
+});
 
-function showCard(index) {
-  const card = currentDeck[index];
-  questionEl.textContent = card.question;
-  answerEl.textContent = card.answer;
-  flipped = false;
-  updateCard();
-}
-
-function updateCard() {
-  document.getElementById("card").classList.toggle("flipped", flipped);
-}
-
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("sw.js");
-}
+// Initial load
+document.addEventListener("DOMContentLoaded", () => {
+  loadCards("introsemiconductors.json"); // default topic
+});
