@@ -7,15 +7,15 @@ const topicNav = document.getElementById("topic-nav");
 let cards = [];
 let currentIndex = 0;
 
-
 // Load cards from JSON file
 async function loadCards(topicFile) {
   try {
-   const response = await fetch(`data/${topic}.json`);
-    const cards = await response.json();
+    const response = await fetch(`data/${topicFile}`);
+    const data = await response.json();
 
     if (!Array.isArray(data)) {
       console.error("Invalid JSON format: expected an array.");
+      showFallback("Invalid deck format.");
       return;
     }
 
@@ -24,6 +24,7 @@ async function loadCards(topicFile) {
     showCard(currentIndex);
   } catch (error) {
     console.error("Failed to load cards:", error);
+    showFallback("⚠️ Deck not found or failed to load.");
   }
 }
 
@@ -32,6 +33,7 @@ function showCard(index) {
   const card = cards[index];
   if (!card) {
     console.warn(`Card at index ${index} is undefined.`);
+    showFallback("No card available.");
     return;
   }
 
@@ -66,7 +68,14 @@ topicNav.addEventListener("click", async (e) => {
   }
 });
 
+// Fallback UI
+function showFallback(message) {
+  document.getElementById("card-question").textContent = message;
+  document.getElementById("card-answer").textContent = "";
+  flashcard.classList.remove("flipped");
+}
+
 // Initial load
 document.addEventListener("DOMContentLoaded", () => {
-  loadCards("data/introsemiconductors.json"); // default topic
+  loadCards("introsemiconductors.json"); // default topic
 });
