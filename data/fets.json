@@ -1,0 +1,702 @@
+[
+  {
+    "id": "FET001",
+    "question": "What does FET stand for?",
+    "answer": "Field-Effect Transistor.",
+    "tags": ["definition", "basic"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET002",
+    "question": "What are the main types of FETs?",
+    "answer": "JFET (Junction FET) and MOSFET (Metal-Oxide-Semiconductor FET).",
+    "tags": ["types", "JFET", "MOSFET"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET003",
+    "question": "What are the three terminals of a FET?",
+    "answer": "Gate, Source, and Drain.",
+    "tags": ["structure", "terminals"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET004",
+    "question": "What is the controlling parameter in a FET?",
+    "answer": "Voltage applied to the gate terminal.",
+    "tags": ["control", "voltage"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET005",
+    "question": "What is the input impedance of a FET?",
+    "answer": "Very high, typically in the megaohm range.",
+    "tags": ["impedance", "input"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET006",
+    "question": "What is the main difference between BJTs and FETs?",
+    "answer": "BJTs are current-controlled; FETs are voltage-controlled.",
+    "tags": ["comparison", "BJT"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET007",
+    "question": "What is the depletion region in a JFET?",
+    "answer": "The region where charge carriers are depleted due to reverse bias at the gate.",
+    "tags": ["JFET", "depletion"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET008",
+    "question": "What is pinch-off voltage in a JFET?",
+    "answer": "The gate-source voltage at which the drain current becomes constant.",
+    "tags": ["JFET", "pinch-off"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET009",
+    "question": "What is the drain current in a JFET after pinch-off?",
+    "answer": "It remains approximately constant and is called IDSS.",
+    "tags": ["JFET", "IDSS"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET010",
+    "question": "What is IDSS in a JFET?",
+    "answer": "The maximum drain current with gate-source voltage equal to zero.",
+    "tags": ["JFET", "IDSS"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET011",
+    "question": "What is the gate-source cutoff voltage in a JFET?",
+    "answer": "The voltage at which the drain current becomes zero.",
+    "tags": ["JFET", "cutoff"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET012",
+    "question": "What is the transconductance of a FET?",
+    "answer": "The ratio of change in drain current to change in gate-source voltage.",
+    "tags": ["transconductance", "gain"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET013",
+    "question": "What is the symbol for transconductance?",
+    "answer": "gm.",
+    "tags": ["symbol", "gain"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET014",
+    "question": "What is the saturation region in a FET?",
+    "answer": "Where the drain current is relatively constant and independent of drain voltage.",
+    "tags": ["operation", "saturation"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET015",
+    "question": "What is the ohmic region in a FET?",
+    "answer": "Where the FET behaves like a variable resistor.",
+    "tags": ["operation", "ohmic"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET016",
+    "question": "What is the cutoff region in a FET?",
+    "answer": "Where the drain current is zero due to gate-source voltage being below threshold.",
+    "tags": ["operation", "cutoff"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET017",
+    "question": "What is a MOSFET?",
+    "answer": "A Metal-Oxide-Semiconductor Field-Effect Transistor.",
+    "tags": ["MOSFET", "definition"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET018",
+    "question": "What are the two types of MOSFETs?",
+    "answer": "Enhancement-mode and depletion-mode.",
+    "tags": ["MOSFET", "types"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET019",
+    "question": "What is the threshold voltage in a MOSFET?",
+    "answer": "The gate-source voltage at which the MOSFET begins to conduct.",
+    "tags": ["MOSFET", "threshold"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET020",
+    "question": "What is the body effect in MOSFETs?",
+    "answer": "The change in threshold voltage due to a voltage difference between source and substrate.",
+    "tags": ["MOSFET", "body effect"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET021",
+    "question": "What is channel length modulation?",
+    "answer": "A phenomenon where drain current increases slightly with drain voltage in saturation.",
+    "tags": ["MOSFET", "channel"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET022",
+    "question": "What is the gate capacitance in a MOSFET?",
+    "answer": "The capacitance formed between gate and channel through the oxide layer.",
+    "tags": ["MOSFET", "capacitance"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET023",
+    "question": "What is the subthreshold region in MOSFETs?",
+    "answer": "Where the device conducts weakly below the threshold voltage.",
+    "tags": ["MOSFET", "subthreshold"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET024",
+    "question": "What is drain-induced barrier lowering (DIBL)?",
+    "answer": "A short-channel effect where threshold voltage decreases with increasing drain voltage.",
+    "tags": ["MOSFET", "DIBL"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET025",
+    "question": "What is the role of FETs in analog circuits?",
+    "answer": "To amplify signals with high input impedance and low noise.",
+    "tags": ["analog", "amplification"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET026",
+    "question": "What is the role of FETs in digital circuits?",
+    "answer": "They act as switches in logic gates and memory cells.",
+    "tags": ["digital", "switching"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET027",
+    "question": "What is the advantage of MOSFETs over BJTs in digital ICs?",
+    "answer": "Lower power consumption and higher integration density.",
+    "tags": ["MOSFET", "digital"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET028",
+    "question": "What is CMOS technology?",
+    "answer": "Complementary MOSFET technology using both NMOS and PMOS transistors.",
+    "tags": ["CMOS", "technology"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET029",
+    "question": "What is the main benefit of CMOS circuits?",
+    "answer": "Very low static power consumption.",
+    "tags": ["CMOS", "power"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET030",
+    "question": "What is the role of NMOS in CMOS logic?",
+    "answer": "To pull the output low when activated.",
+    "tags": ["NMOS", "logic"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET031",
+    "question": "What is the role of PMOS in CMOS logic?",
+    "answer": "To pull the output high when activated.",
+    "tags": ["PMOS", "logic"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET032",
+    "question": "What is the gate oxide in a MOSFET?",
+    "answer": "A thin insulating layer of silicon dioxide between gate and channel.",
+    "tags": ["MOSFET", "oxide"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET033",
+    "question": "What is gate leakage in MOSFETs?",
+    "answer": "A small current that flows through the gate oxide due to tunneling.",
+    "tags": ["MOSFET", "leakage"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET034",
+    "question": "What is the maximum gate voltage in a MOSFET?",
+    "answer": "The highest voltage the gate can tolerate without breakdown.",
+    "tags": ["MOSFET", "voltage"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET035",
+    "question": "What is the gate threshold voltage in NMOS?",
+    "answer": "Typically between 0.7 and 1.5 volts.",
+    "tags": ["NMOS", "threshold"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET036",
+    "question": "What is the gate threshold voltage in PMOS?",
+    "answer": "Typically between -0.7 and -1.5 volts.",
+    "tags": ["PMOS", "threshold"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET037",
+    "question": "What is the drain current equation for a MOSFET in saturation?",
+    "answer": "ID = (1/2) × μn × Cox × (W/L) × (VGS - Vth)^2.",
+    "tags": ["MOSFET", "equation"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET038",
+    "question": "What is the role of channel width (W) in MOSFET performance?",
+    "answer": "Increasing W increases the drain current.",
+    "tags": ["MOSFET", "channel"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET039",
+    "question": "What is the role of channel length (L) in MOSFET performance?",
+    "answer": "Decreasing L increases current and speed but may cause short-channel effects.",
+    "tags": ["MOSFET", "channel"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET040",
+    "question": "What is mobility (μ) in MOSFETs?",
+    "answer": "The speed at which carriers move through the channel.",
+    "tags": ["MOSFET", "mobility"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET041",
+    "question": "What is Cox in MOSFET equations?",
+    "answer": "The oxide capacitance per unit area.",
+    "tags": ["MOSFET", "capacitance"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET042",
+    "question": "What is the subthreshold slope in MOSFETs?",
+    "answer": "A measure of how sharply the device turns on below threshold.",
+    "tags": ["MOSFET", "subthreshold"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET043",
+    "question": "What is the role of FETs in RF circuits?",
+    "answer": "They are used for low-noise amplification and switching.",
+    "tags": ["RF", "FET"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET044",
+    "question": "What is the noise figure of a FET amplifier?",
+    "answer": "A measure of how much noise the amplifier adds to the signal.",
+    "tags": ["noise", "amplifier"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET045",
+    "question": "What is the Miller effect in FET amplifiers?",
+    "answer": "An increase in input capacitance due to feedback from output to input.",
+    "tags": ["Miller", "capacitance"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET046",
+    "question": "What is the common-source amplifier?",
+    "answer": "A FET amplifier configuration with high gain and 180° phase shift.",
+    "tags": ["amplifier", "common-source"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET047",
+    "question": "What is the common-drain amplifier?",
+    "answer": "A FET amplifier with unity gain and high input impedance.",
+    "tags": ["amplifier", "common-drain"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET048",
+    "question": "What is the common-gate amplifier?",
+    "answer": "A FET amplifier with low input impedance and no phase shift.",
+    "tags": ["amplifier", "common-gate"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET049",
+    "question": "What is the phase shift in a common-source amplifier?",
+    "answer": "180 degrees between input and output.",
+    "tags": ["phase", "common-source"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET050",
+    "question": "What is the voltage gain of a common-source amplifier?",
+    "answer": "Approximately -gm × RD.",
+    "tags": ["gain", "common-source"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET051",
+    "question": "What is the input impedance of a common-gate amplifier?",
+    "answer": "Low, making it suitable for certain RF applications.",
+    "tags": ["impedance", "common-gate"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET052",
+    "question": "What is the output impedance of a common-gate amplifier?",
+    "answer": "High, similar to common-source configuration.",
+    "tags": ["impedance", "output"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET053",
+    "question": "What is the phase shift in a common-gate amplifier?",
+    "answer": "Zero degrees between input and output.",
+    "tags": ["phase", "common-gate"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET054",
+    "question": "What is the voltage gain of a common-gate amplifier?",
+    "answer": "Approximately gm × RD.",
+    "tags": ["gain", "common-gate"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET055",
+    "question": "What is the purpose of source degeneration in FET amplifiers?",
+    "answer": "To improve linearity and stabilize gain.",
+    "tags": ["source", "degeneration"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET056",
+    "question": "What is the role of bypass capacitors in FET circuits?",
+    "answer": "To short AC signals around degeneration resistors.",
+    "tags": ["bypass", "capacitor"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET057",
+    "question": "What is the role of coupling capacitors in FET amplifiers?",
+    "answer": "To block DC and pass AC signals between stages.",
+    "tags": ["coupling", "capacitor"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET058",
+    "question": "What is the small-signal model of a FET?",
+    "answer": "An equivalent circuit using gm, output resistance, and capacitances.",
+    "tags": ["small-signal", "model"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET059",
+    "question": "What is the output resistance of a FET in saturation?",
+    "answer": "Typically high, due to channel pinch-off.",
+    "tags": ["resistance", "saturation"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET060",
+    "question": "What is the drain resistance in FET amplifiers?",
+    "answer": "The resistor connected to the drain terminal, affecting gain.",
+    "tags": ["drain", "resistance"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET061",
+    "question": "What is the gate resistance in FET circuits?",
+    "answer": "Usually very high, contributing to high input impedance.",
+    "tags": ["gate", "resistance"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET062",
+    "question": "What is the purpose of biasing a FET?",
+    "answer": "To set the operating point for linear amplification.",
+    "tags": ["biasing", "operation"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET063",
+    "question": "What is self-biasing in JFETs?",
+    "answer": "Using a resistor in the source lead to develop gate-source voltage.",
+    "tags": ["JFET", "biasing"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET064",
+    "question": "What is voltage-divider bias in FETs?",
+    "answer": "Using two resistors to set gate voltage.",
+    "tags": ["biasing", "voltage-divider"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET065",
+    "question": "What is the thermal stability of FETs compared to BJTs?",
+    "answer": "FETs are more thermally stable due to negative temperature coefficient.",
+    "tags": ["thermal", "stability"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET066",
+    "question": "What is the maximum power dissipation in a FET?",
+    "answer": "The product of drain current and drain-source voltage.",
+    "tags": ["power", "dissipation"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET067",
+    "question": "What is the safe operating area (SOA) of a FET?",
+    "answer": "The range of voltage and current where the FET operates safely.",
+    "tags": ["SOA", "safety"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET068",
+    "question": "What is the role of FETs in voltage regulators?",
+    "answer": "To act as pass elements controlling output voltage.",
+    "tags": ["regulator", "voltage"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET069",
+    "question": "What is the switching speed of a MOSFET?",
+    "answer": "Very fast, often in the nanosecond range.",
+    "tags": ["MOSFET", "switching"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET070",
+    "question": "What is the propagation delay in MOSFET logic circuits?",
+    "answer": "The time it takes for a signal to travel through a gate.",
+    "tags": ["delay", "logic"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET071",
+    "question": "What is the role of FETs in memory cells?",
+    "answer": "To store and access binary data in SRAM and DRAM.",
+    "tags": ["memory", "FET"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET072",
+    "question": "What is the role of FETs in analog switches?",
+    "answer": "To control signal paths with minimal distortion.",
+    "tags": ["analog", "switch"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET073",
+    "question": "What is the role of FETs in mixers?",
+    "answer": "To combine signals in RF applications.",
+    "tags": ["RF", "mixer"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET074",
+    "question": "What is the role of FETs in oscillators?",
+    "answer": "To provide gain and feedback for sustained oscillation.",
+    "tags": ["oscillator", "FET"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET075",
+    "question": "What is the role of FETs in buffer circuits?",
+    "answer": "To isolate stages and prevent loading effects.",
+    "tags": ["buffer", "FET"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET076",
+    "question": "What is the role of FETs in impedance matching?",
+    "answer": "To match high input impedance with low output impedance stages.",
+    "tags": ["impedance", "matching"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET077",
+    "question": "What is the role of FETs in voltage followers?",
+    "answer": "To provide unity gain with high input and low output impedance.",
+    "tags": ["voltage follower", "buffer"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET078",
+    "question": "What is the role of FETs in current sources?",
+    "answer": "To maintain constant current regardless of load variations.",
+    "tags": ["current source", "FET"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET079",
+    "question": "What is the role of FETs in differential amplifiers?",
+    "answer": "To amplify the difference between two input signals.",
+    "tags": ["differential", "amplifier"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET080",
+    "question": "What is the common-mode rejection ratio (CMRR) in FET differential amplifiers?",
+    "answer": "A measure of the ability to reject common signals.",
+    "tags": ["CMRR", "differential"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET081",
+    "question": "What is the role of FETs in active filters?",
+    "answer": "To provide gain and frequency-selective response.",
+    "tags": ["filter", "active"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET082",
+    "question": "What is the role of FETs in analog multipliers?",
+    "answer": "To multiply two analog signals using transconductance properties.",
+    "tags": ["analog", "multiplier"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET083",
+    "question": "What is the role of FETs in sample-and-hold circuits?",
+    "answer": "To capture and maintain analog voltage levels.",
+    "tags": ["sample", "hold"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET084",
+    "question": "What is the role of FETs in analog-to-digital converters?",
+    "answer": "To switch and buffer analog signals before conversion.",
+    "tags": ["ADC", "FET"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET085",
+    "question": "What is the role of FETs in digital-to-analog converters?",
+    "answer": "To control current flow for analog output generation.",
+    "tags": ["DAC", "FET"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET086",
+    "question": "What is the role of FETs in power amplifiers?",
+    "answer": "To deliver high current and voltage to loads efficiently.",
+    "tags": ["power", "amplifier"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET087",
+    "question": "What is the role of FETs in class D amplifiers?",
+    "answer": "To switch rapidly for high-efficiency digital amplification.",
+    "tags": ["class D", "amplifier"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET088",
+    "question": "What is the role of FETs in class A amplifiers?",
+    "answer": "To provide linear amplification with continuous conduction.",
+    "tags": ["class A", "amplifier"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET089",
+    "question": "What is the role of FETs in class B amplifiers?",
+    "answer": "To amplify half of the waveform for improved efficiency.",
+    "tags": ["class B", "amplifier"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET090",
+    "question": "What is the role of FETs in class AB amplifiers?",
+    "answer": "To combine linearity and efficiency by conducting slightly more than half the cycle.",
+    "tags": ["class AB", "amplifier"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET091",
+    "question": "What is the role of FETs in class C amplifiers?",
+    "answer": "To amplify signals with conduction less than half the cycle, used in RF.",
+    "tags": ["class C", "amplifier"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET092",
+    "question": "What is the thermal resistance of a FET?",
+    "answer": "The resistance to heat flow from junction to ambient.",
+    "tags": ["thermal", "resistance"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET093",
+    "question": "What is the role of heat sinks in FET circuits?",
+    "answer": "To dissipate heat and prevent thermal damage.",
+    "tags": ["heat sink", "thermal"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET094",
+    "question": "What is latch-up in CMOS circuits?",
+    "answer": "A failure mode where parasitic structures cause high current paths.",
+    "tags": ["CMOS", "latch-up"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET095",
+    "question": "What is hot carrier injection in MOSFETs?",
+    "answer": "A reliability issue where energetic carriers damage the gate oxide.",
+    "tags": ["MOSFET", "reliability"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET096",
+    "question": "What is gate oxide breakdown?",
+    "answer": "A failure caused by excessive voltage across the gate oxide.",
+    "tags": ["MOSFET", "breakdown"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "FET097",
+    "question": "What is the role of FETs in ESD protection?",
+    "answer": "To safely discharge electrostatic energy and protect circuits.",
+    "tags": ["ESD", "protection"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "FET098",
+    "question": "What is the role of FETs in battery management systems?",
+    "answer": "To switch and regulate charging and discharging paths.",
+    "tags": ["battery", "management"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "FET099",
+    "question": "What is the role of FETs in motor control circuits?",
+    "answer": "To switch and modulate power to motors efficiently.",
+    "tags": ["motor", "control"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "FET100",
+    "question": "What is the role of FETs in solar inverters?",
+    "answer": "To convert DC from solar panels into AC for grid or load.",
+    "tags": ["solar", "inverter"],
+    "source": "Electronic Devices – Floyd"
+  }
+]

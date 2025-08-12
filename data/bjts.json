@@ -1,0 +1,703 @@
+[
+  {
+    "id": "BJT001",
+    "question": "What does BJT stand for?",
+    "answer": "Bipolar Junction Transistor.",
+    "tags": ["definition", "basic"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT002",
+    "question": "What are the three terminals of a BJT?",
+    "answer": "Emitter, Base, and Collector.",
+    "tags": ["structure", "terminals"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT003",
+    "question": "What are the two types of BJTs?",
+    "answer": "NPN and PNP.",
+    "tags": ["types", "npn", "pnp"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT004",
+    "question": "Which terminal of a BJT is lightly doped?",
+    "answer": "The base.",
+    "tags": ["structure", "doping"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT005",
+    "question": "What is the function of the emitter in a BJT?",
+    "answer": "To inject charge carriers into the base.",
+    "tags": ["emitter", "function"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT006",
+    "question": "What is the typical current gain of a BJT?",
+    "answer": "Between 20 and 200.",
+    "tags": ["gain", "amplification"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT007",
+    "question": "What is the symbol for current gain in a BJT?",
+    "answer": "Beta (β).",
+    "tags": ["gain", "symbol"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT008",
+    "question": "What is the relationship between collector current and base current?",
+    "answer": "IC = β × IB.",
+    "tags": ["current", "relationship"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT009",
+    "question": "What is the active region of a BJT?",
+    "answer": "Where the emitter-base junction is forward-biased and the collector-base junction is reverse-biased.",
+    "tags": ["operation", "active region"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT010",
+    "question": "What is the cutoff region of a BJT?",
+    "answer": "Where both junctions are reverse-biased and the transistor is off.",
+    "tags": ["operation", "cutoff"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT011",
+    "question": "What is the saturation region of a BJT?",
+    "answer": "Where both junctions are forward-biased and the transistor is fully on.",
+    "tags": ["operation", "saturation"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT012",
+    "question": "What is the typical voltage drop across a forward-biased base-emitter junction?",
+    "answer": "Approximately 0.7 volts for silicon BJTs.",
+    "tags": ["voltage", "junction"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT013",
+    "question": "What is the role of the base in a BJT?",
+    "answer": "To control the flow of carriers between emitter and collector.",
+    "tags": ["base", "control"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT014",
+    "question": "What is the collector current primarily composed of?",
+    "answer": "Electrons (in NPN) or holes (in PNP) injected from the emitter.",
+    "tags": ["collector", "current"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT015",
+    "question": "What is the Early effect in BJTs?",
+    "answer": "The variation of collector current with collector-base voltage due to base-width modulation.",
+    "tags": ["early effect", "modulation"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT016",
+    "question": "What is the input impedance of a common-emitter amplifier?",
+    "answer": "Typically low, due to the base-emitter junction.",
+    "tags": ["impedance", "common-emitter"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT017",
+    "question": "What is the output impedance of a common-emitter amplifier?",
+    "answer": "Typically high, due to the collector load.",
+    "tags": ["impedance", "output"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT018",
+    "question": "What is the phase shift in a common-emitter amplifier?",
+    "answer": "180 degrees between input and output.",
+    "tags": ["phase", "amplifier"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT019",
+    "question": "What is the voltage gain of a common-emitter amplifier?",
+    "answer": "Approximately -RC/RE (neglecting internal resistances).",
+    "tags": ["gain", "voltage"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT020",
+    "question": "What is the purpose of biasing a BJT?",
+    "answer": "To set the operating point for linear amplification.",
+    "tags": ["biasing", "operation"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT021",
+    "question": "What is thermal runaway in BJTs?",
+    "answer": "A condition where increased temperature leads to increased current, causing further heating.",
+    "tags": ["thermal", "runaway"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT022",
+    "question": "What is a common-base configuration?",
+    "answer": "A BJT amplifier where the base is common to both input and output.",
+    "tags": ["common-base", "configuration"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT023",
+    "question": "What is the current gain in a common-base amplifier?",
+    "answer": "Less than 1.",
+    "tags": ["gain", "common-base"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT024",
+    "question": "What is a common-collector configuration?",
+    "answer": "A BJT amplifier where the collector is common to both input and output.",
+    "tags": ["common-collector", "configuration"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT025",
+    "question": "What is the voltage gain of a common-collector amplifier?",
+    "answer": "Less than 1, but with high current gain.",
+    "tags": ["voltage gain", "common-collector"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT026",
+    "question": "What is the input impedance of a common-collector amplifier?",
+    "answer": "High, making it suitable for impedance matching.",
+    "tags": ["impedance", "common-collector"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT027",
+    "question": "What is the output impedance of a common-collector amplifier?",
+    "answer": "Low, ideal for driving low-impedance loads.",
+    "tags": ["output", "impedance"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT028",
+    "question": "What is the phase relationship in a common-collector amplifier?",
+    "answer": "No phase shift between input and output.",
+    "tags": ["phase", "common-collector"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT029",
+    "question": "What is the purpose of coupling capacitors in BJT amplifiers?",
+    "answer": "To block DC and allow AC signals to pass.",
+    "tags": ["capacitor", "coupling"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT030",
+    "question": "What is the role of bypass capacitors in BJT circuits?",
+    "answer": "To stabilize gain by shorting AC signals around emitter resistors.",
+    "tags": ["bypass", "capacitor"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT031",
+    "question": "What is the h-parameter model of a BJT?",
+    "answer": "A small-signal model using hybrid parameters for analysis.",
+    "tags": ["h-parameters", "model"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT032",
+    "question": "What does hFE represent in a BJT?",
+    "answer": "The DC current gain in the common-emitter configuration.",
+    "tags": ["hFE", "gain"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT033",
+    "question": "What is the typical range of hFE for general-purpose BJTs?",
+    "answer": "Between 50 and 300.",
+    "tags": ["hFE", "range"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT034",
+    "question": "What is the base-emitter junction in a BJT equivalent to?",
+    "answer": "A forward-biased diode.",
+    "tags": ["junction", "diode"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT035",
+    "question": "What is the collector-base junction in active mode?",
+    "answer": "Reverse-biased.",
+    "tags": ["junction", "biasing"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT036",
+    "question": "What is the collector-emitter voltage in saturation?",
+    "answer": "Typically less than 0.3 volts.",
+    "tags": ["voltage", "saturation"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT037",
+    "question": "What is the maximum power dissipation of a BJT?",
+    "answer": "The product of collector-emitter voltage and collector current.",
+    "tags": ["power", "dissipation"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT038",
+    "question": "What is the safe operating area (SOA) of a BJT?",
+    "answer": "The range of voltage and current where the BJT operates safely.",
+    "tags": ["SOA", "safety"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT039",
+    "question": "What is beta (β) in a BJT?",
+    "answer": "The ratio of collector current to base current.",
+    "tags": ["beta", "gain"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT040",
+    "question": "What is alpha (α) in a BJT?",
+    "answer": "The ratio of collector current to emitter current.",
+    "tags": ["alpha", "gain"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT041",
+    "question": "How are alpha and beta related?",
+    "answer": "β = α / (1 - α).",
+    "tags": ["relationship", "gain"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT042",
+    "question": "What is the thermal stability factor?",
+    "answer": "A measure of how stable the collector current is with temperature changes.",
+    "tags": ["thermal", "stability"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT043",
+    "question": "What is the quiescent point (Q-point) in a BJT amplifier?",
+    "answer": "The DC operating point set by biasing.",
+    "tags": ["Q-point", "biasing"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT044",
+    "question": "What is the purpose of load line analysis?",
+    "answer": "To graphically determine the Q-point of a transistor.",
+    "tags": ["load line", "analysis"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT045",
+    "question": "What is the AC load line?",
+    "answer": "A line representing the dynamic behavior of the amplifier under signal conditions.",
+    "tags": ["AC", "load line"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT046",
+    "question": "What is the DC load line?",
+    "answer": "A line representing the static operating conditions of the transistor.",
+    "tags": ["DC", "load line"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT047",
+    "question": "What is the role of emitter resistance in bias stability?",
+    "answer": "It improves thermal stability by providing negative feedback.",
+    "tags": ["emitter", "stability"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT048",
+    "question": "What is a voltage divider bias?",
+    "answer": "A biasing method using two resistors to set the base voltage.",
+    "tags": ["biasing", "voltage divider"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT049",
+    "question": "Why is voltage divider bias preferred?",
+    "answer": "It provides better stability against variations in β.",
+    "tags": ["biasing", "stability"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT050",
+    "question": "What is the collector feedback bias?",
+    "answer": "A biasing method where the base voltage is derived from the collector.",
+    "tags": ["biasing", "feedback"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT051",
+    "question": "What is base bias?",
+    "answer": "A simple biasing method using a resistor connected to the base from the supply voltage.",
+    "tags": ["biasing", "base bias"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT052",
+    "question": "What is emitter bias?",
+    "answer": "A biasing method using both emitter and base resistors for improved stability.",
+    "tags": ["biasing", "emitter bias"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT053",
+    "question": "What is collector-to-base bias?",
+    "answer": "A biasing method where the base resistor is connected to the collector.",
+    "tags": ["biasing", "collector-base"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT054",
+    "question": "What is the effect of temperature on BJT operation?",
+    "answer": "It increases leakage current and can lead to thermal runaway.",
+    "tags": ["temperature", "thermal"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT055",
+    "question": "What is the leakage current in a BJT?",
+    "answer": "The small reverse saturation current that flows when the collector-base junction is reverse-biased.",
+    "tags": ["leakage", "current"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT056",
+    "question": "What is the role of a heat sink in BJT circuits?",
+    "answer": "To dissipate heat and prevent thermal damage.",
+    "tags": ["heat sink", "thermal"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT057",
+    "question": "What is the maximum collector current rating of a BJT?",
+    "answer": "The highest current the collector can safely conduct without damage.",
+    "tags": ["collector", "rating"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT058",
+    "question": "What is the maximum collector-emitter voltage rating?",
+    "answer": "The highest voltage that can be applied across collector-emitter terminals without breakdown.",
+    "tags": ["voltage", "rating"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT059",
+    "question": "What is the storage time in a BJT switch?",
+    "answer": "The time required to remove excess charge carriers before turning off.",
+    "tags": ["switching", "storage time"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT060",
+    "question": "What is the transition frequency (fT) of a BJT?",
+    "answer": "The frequency at which the current gain drops to unity.",
+    "tags": ["frequency", "transition"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT061",
+    "question": "What is the Miller effect in BJT amplifiers?",
+    "answer": "An increase in input capacitance due to feedback through the collector-base capacitance.",
+    "tags": ["miller effect", "capacitance"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT062",
+    "question": "What is the bandwidth of a BJT amplifier?",
+    "answer": "The range of frequencies over which the amplifier maintains consistent gain.",
+    "tags": ["bandwidth", "amplifier"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT063",
+    "question": "What is the slew rate in BJT op-amp circuits?",
+    "answer": "The maximum rate of change of output voltage per unit time.",
+    "tags": ["slew rate", "op-amp"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT064",
+    "question": "What is a differential amplifier using BJTs?",
+    "answer": "An amplifier that amplifies the difference between two input signals.",
+    "tags": ["differential", "amplifier"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT065",
+    "question": "What is the common-mode rejection ratio (CMRR)?",
+    "answer": "The ability of a differential amplifier to reject common signals.",
+    "tags": ["CMRR", "differential"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT066",
+    "question": "What is a current mirror using BJTs?",
+    "answer": "A circuit that copies current from one branch to another using matched transistors.",
+    "tags": ["current mirror", "analog"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT067",
+    "question": "What is the purpose of a cascode configuration?",
+    "answer": "To improve gain and bandwidth by stacking transistors.",
+    "tags": ["cascode", "gain"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT068",
+    "question": "What is the role of emitter degeneration?",
+    "answer": "To stabilize gain and linearize the amplifier response.",
+    "tags": ["emitter", "degeneration"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT069",
+    "question": "What is the purpose of a Darlington pair?",
+    "answer": "To achieve high current gain by cascading two BJTs.",
+    "tags": ["darlington", "gain"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT070",
+    "question": "What is the input impedance of a Darlington pair?",
+    "answer": "Very high, due to the compounded base-emitter junctions.",
+    "tags": ["darlington", "impedance"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT071",
+    "question": "What is the output impedance of a Darlington pair?",
+    "answer": "Relatively low, suitable for driving loads.",
+    "tags": ["darlington", "output"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT072",
+    "question": "What is the voltage drop across a Darlington pair?",
+    "answer": "Approximately 1.4 volts due to two base-emitter junctions.",
+    "tags": ["darlington", "voltage"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT073",
+    "question": "What is a BJT switch?",
+    "answer": "A transistor used to turn circuits on or off by operating in cutoff and saturation.",
+    "tags": ["switch", "digital"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT074",
+    "question": "What is the propagation delay in a BJT switch?",
+    "answer": "The time taken for the output to respond to an input change.",
+    "tags": ["delay", "switching"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT075",
+    "question": "What is the use of BJTs in logic circuits?",
+    "answer": "They are used in TTL (Transistor-Transistor Logic) gates.",
+    "tags": ["logic", "TTL"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT076",
+    "question": "What is TTL?",
+    "answer": "Transistor-Transistor Logic, a digital logic family built using BJTs.",
+    "tags": ["TTL", "logic"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT077",
+    "question": "What is the typical propagation delay of TTL gates?",
+    "answer": "Around 10 nanoseconds.",
+    "tags": ["TTL", "delay"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT078",
+    "question": "What is the fan-out in TTL logic?",
+    "answer": "The number of inputs a gate output can drive.",
+    "tags": ["TTL", "fan-out"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT079",
+    "question": "What is the noise margin in TTL circuits?",
+    "answer": "The voltage range within which noise does not affect logic levels.",
+    "tags": ["TTL", "noise margin"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT080",
+    "question": "What is the difference between NPN and PNP transistors?",
+    "answer": "NPN uses electrons as majority carriers; PNP uses holes.",
+    "tags": ["NPN", "PNP"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT081",
+    "question": "How is a BJT tested with a multimeter?",
+    "answer": "By checking the forward and reverse bias of base-emitter and base-collector junctions.",
+    "tags": ["testing", "multimeter"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT082",
+    "question": "What is the role of a BJT in analog circuits?",
+    "answer": "Amplification of small signals.",
+    "tags": ["analog", "amplification"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT083",
+    "question": "What is the role of a BJT in digital circuits?",
+    "answer": "Switching between logic states.",
+    "tags": ["digital", "switching"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT084",
+    "question": "What is the collector efficiency of a BJT?",
+    "answer": "The ratio of collector current to emitter current.",
+    "tags": ["efficiency", "collector"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT085",
+    "question": "What is the base spreading resistance?",
+    "answer": "The resistance due to current spreading in the base region.",
+    "tags": ["resistance", "base"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT086",
+    "question": "What is punch-through in BJTs?",
+    "answer": "A breakdown condition where the depletion regions merge.",
+    "tags": ["breakdown", "punch-through"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT087",
+    "question": "What is avalanche breakdown in BJTs?",
+    "answer": "A condition where high reverse voltage causes carrier multiplication.",
+    "tags": ["breakdown", "avalanche"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT088",
+    "question": "What is the collector cutoff current?",
+    "answer": "The small leakage current when the transistor is in cutoff.",
+    "tags": ["cutoff", "leakage"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT089",
+    "question": "What is the saturation voltage of a BJT?",
+    "answer": "The voltage across collector-emitter when fully on, typically 0.2–0.3 V.",
+    "tags": ["saturation", "voltage"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT090",
+    "question": "What is the base drive in switching applications?",
+    "answer": "The current supplied to the base to turn the transistor on.",
+    "tags": ["switching", "base drive"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT091",
+    "question": "What is the switching speed of a BJT?",
+    "answer": "The time it takes to transition between on and off states.",
+    "tags": ["switching", "speed"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT092",
+    "question": "What is the role of BJTs in push-pull amplifiers?",
+    "answer": "To provide efficient amplification with reduced distortion.",
+    "tags": ["push-pull", "amplifier"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT093",
+    "question": "What is crossover distortion in BJT amplifiers?",
+    "answer": "Distortion occurring when switching between transistors in a push-pull stage.",
+    "tags": ["distortion", "crossover"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT094",
+    "question": "What is the role of BJTs in class A amplifiers?",
+    "answer": "To provide linear amplification with constant current flow.",
+    "tags": ["class A", "amplifier"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT095",
+    "question": "What is the efficiency of a class A BJT amplifier?",
+    "answer": "Typically around 25–30%.",
+    "tags": ["efficiency", "class A"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT096",
+    "question": "What is the role of BJTs in class B amplifiers?",
+    "answer": "To amplify half of the input waveform, improving efficiency.",
+    "tags": ["class B", "amplifier"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  },
+  {
+    "id": "BJT097",
+    "question": "What is the efficiency of a class B BJT amplifier?",
+    "answer": "Up to 78.5%.",
+    "tags": ["efficiency", "class B"],
+    "source": "Electronic Principles – Malvino"
+  },
+  {
+    "id": "BJT098",
+    "question": "What is the role of BJTs in class AB amplifiers?",
+    "answer": "To combine benefits of class A and B for better linearity and efficiency.",
+    "tags": ["class AB", "amplifier"],
+    "source": "Electronic Devices – Floyd"
+  },
+  {
+    "id": "BJT099",
+    "question": "What is the thermal resistance of a BJT?",
+    "answer": "The resistance to heat flow from junction to ambient.",
+    "tags": ["thermal", "resistance"],
+    "source": "Electronic Devices and Circuit Theory – Boylestad"
+  },
+  {
+    "id": "BJT100",
+    "question": "What is the role of BJTs in voltage regulators?",
+    "answer": "To control output voltage by acting as a pass element.",
+    "tags": ["regulator", "voltage"],
+    "source": "Microelectronic Circuits – Sedra & Smith"
+  }
+]
+

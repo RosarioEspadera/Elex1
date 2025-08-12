@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ElectroDeck – Electronics 1 Flashcards</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <header>
+    <h1>⚡ ElectroDeck</h1>
+    <p>Explore Electronics 1 topics through interactive flashcards.</p>
+    <nav>
+      <ul id="topic-nav">
+        <li data-topic="fundamentals">Fundamentals</li>
+        <li data-topic="introsemiconductors">Introduction of Semiconductors</li>
+        <li data-topic="semiconductor-diodes">Semiconductor Diodes</li>
+        <li data-topic="diodes">Diodes</li>
+        <li data-topic="special-diodes-and-applications">Special Diodes and Applications</li>
+        <li data-topic="bjts">BJTs</li>
+        <li data-topic="fets">FETs</li>
+        <li data-topic="combinational">Combinational Circuits</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="flashcard-viewer">
+      <div class="card" id="card">
+        <div class="front" id="question">Click a topic to begin.</div>
+        <div class="back" id="answer"></div>
+      </div>
+      <div class="controls">
+        <button id="flip">Flip</button>
+        <button id="next">Next</button>
+        <button id="bookmark">🔖</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="scripts/flashcard.js"></script>
+</body>
+</html>

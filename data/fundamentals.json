@@ -1,0 +1,422 @@
+[
+  {
+    "id": "F001",
+    "question": "What is the unit of electric current?",
+    "answer": "Ampere (A).",
+    "tags": ["fundamentals", "units"],
+    "source": "Teach Yourself Electricity and Electronics – Stan Gibilisco"
+  },
+  {
+    "id": "F002",
+    "question": "What is Ohm’s Law?",
+    "answer": "V = IR, where voltage equals current times resistance.",
+    "tags": ["fundamentals", "ohms-law"],
+    "source": "Principles of Electronics – V&R Mehta"
+  },
+  {
+    "id": "F003",
+    "question": "Define electric charge.",
+    "answer": "A property of matter that causes it to experience a force in an electric field.",
+    "tags": ["fundamentals", "charge"],
+    "source": "Fundamentals of Electric Circuit – Sadiku"
+  },
+  {
+    "id": "F004",
+    "question": "What is the unit of resistance?",
+    "answer": "Ohm (Ω).",
+    "tags": ["fundamentals", "units"],
+    "source": "Electrical Circuit Theory and Technology – John Bird"
+  },
+  {
+    "id": "F005",
+    "question": "What is the formula for electrical power?",
+    "answer": "P = VI, where power equals voltage times current.",
+    "tags": ["fundamentals", "power"],
+    "source": "Engineering Circuit Analysis – Hayt"
+  },
+  {
+    "id": "F006",
+    "question": "What is the unit of energy?",
+    "answer": "Joule (J).",
+    "tags": ["fundamentals", "units"],
+    "source": "Teach Yourself Electricity and Electronics – Stan Gibilisco"
+  },
+  {
+    "id": "F007",
+    "question": "What is the function of a resistor?",
+    "answer": "To limit or control the flow of electric current.",
+    "tags": ["fundamentals", "components"],
+    "source": "Principles of Electronics – V&R Mehta"
+  },
+  {
+    "id": "F008",
+    "question": "Define voltage.",
+    "answer": "The potential difference between two points in an electric field.",
+    "tags": ["fundamentals", "voltage"],
+    "source": "Fundamentals of Electric Circuit – Sadiku"
+  },
+  {
+    "id": "F009",
+    "question": "What is the unit of voltage?",
+    "answer": "Volt (V).",
+    "tags": ["fundamentals", "units"],
+    "source": "Electrical Circuit Theory and Technology – John Bird"
+  },
+  {
+    "id": "F010",
+    "question": "What is a conductor?",
+    "answer": "A material that allows electric current to flow easily.",
+    "tags": ["fundamentals", "materials"],
+    "source": "Teach Yourself Electricity and Electronics – Stan Gibilisco"
+  },
+  {
+    "id": "F011",
+    "question": "What is a semiconductor?",
+    "answer": "A material with electrical conductivity between that of a conductor and an insulator.",
+    "tags": ["introsemiconductors", "materials"],
+    "source": "Principles of Electronics – V&R Mehta"
+  },
+  {
+    "id": "F012",
+    "question": "Name two common semiconductor materials.",
+    "answer": "Silicon and Germanium.",
+    "tags": ["introsemiconductors", "materials"],
+    "source": "Fundamentals of Electric Circuit – Sadiku"
+  },
+  {
+    "id": "F013",
+    "question": "What is a PN junction?",
+    "answer": "The boundary between p-type and n-type semiconductor regions.",
+    "tags": ["semiconductor-diodes", "pn-junction"],
+    "source": "Principles of Electronics – V&R Mehta"
+  },
+  {
+    "id": "F014",
+    "question": "What is the main function of a diode?",
+    "answer": "To allow current to flow in one direction only.",
+    "tags": ["diodes", "components"],
+    "source": "Teach Yourself Electricity and Electronics – Stan Gibilisco"
+  },
+  {
+    "id": "F015",
+    "question": "What is the forward voltage drop of a silicon diode?",
+    "answer": "Approximately 0.7 V.",
+    "tags": ["diodes", "characteristics"],
+    "source": "Electrical Circuit Theory and Technology – John Bird"
+  },
+  {
+    "id": "F016",
+    "question": "What is a Zener diode used for?",
+    "answer": "Voltage regulation.",
+    "tags": ["special-diodes-and-applications", "zener"],
+    "source": "Principles of Electronics – V&R Mehta"
+  },
+  {
+    "id": "F017",
+    "question": "What is the function of a Light Emitting Diode (LED)?",
+    "answer": "To emit light when current flows through it.",
+    "tags": ["special-diodes-and-applications", "led"],
+    "source": "Teach Yourself Electricity and Electronics – Stan Gibilisco"
+  },
+  {
+    "id": "F018",
+    "question": "What is a photodiode?",
+    "answer": "A diode that generates current when exposed to light.",
+    "tags": ["special-diodes-and-applications", "photodiode"],
+    "source": "Fundamentals of Electric Circuit – Sadiku"
+  },
+  {
+    "id": "F019",
+    "question": "What is a Schottky diode known for?",
+    "answer": "Low forward voltage drop and fast switching.",
+    "tags": ["special-diodes-and-applications", "schottky"],
+    "source": "Principles of Electronics – V&R Mehta"
+  },
+  {
+    "id": "F020",
+    "question": "What is a varactor diode used for?",
+    "answer": "Voltage-controlled capacitance in tuning circuits.",
+    "tags": ["special-diodes-and-applications", "varactor"],
+    "source": "Teach Yourself Electricity and Electronics – Stan Gibilisco"
+  },
+  {
+    "id": "F021",
+    "question": "What does BJT stand for?",
+    "answer": "Bipolar Junction Transistor.",
+    "tags": ["bjts", "components"],
+    "source": "Principles of Electronics – V&R Mehta"
+  },
+  {
+    "id": "F022",
+    "question": "Name the three regions of a BJT.",
+    "answer": "Emitter, Base, Collector.",
+    "tags": ["bjts", "structure"],
+    "source": "Fundamentals of Electric Circuit – Sadiku"
+  },
+  {
+    "id": "F023",
+    "question": "What is the main function of a FET?",
+    "answer": "To control current using an electric field.",
+    "tags": ["fets", "components"],
+    "source": "Teach Yourself Electricity and Electronics – Stan Gibilisco"
+  },
+  {
+    "id": "F024",
+    "question": "What does FET stand for?",
+    "answer": "Field Effect Transistor.",
+    "tags": ["fets", "components"],
+    "source": "Principles of Electronics – V&R Mehta"
+  },
+  {
+    "id": "F025",
+    "question": "What is a combinational circuit?",
+    "answer": "A circuit whose output depends only on the current inputs.",
+    "tags": ["combinational", "logic"],
+    "source": "Fundamentals of Electric Circuit – Sadiku"
+  },
+  {
+    "id": "F026",
+    "question": "What is the unit of capacitance?",
+    "answer": "Farad (F).",
+    "tags": ["fundamentals", "units"],
+    "source": "Electrical Circuit Theory and Technology – John Bird"
+  },
+  {
+    "id": "F027",
+    "question": "What is the function of a capacitor?",
+    "answer": "To store electrical energy in an electric field.",
+    "tags": ["fundamentals", "components"],
+    "source": "Principles of Electronics – V&R Mehta"
+  },
+  {
+    "id": "F028",
+    "question": "What is the unit of inductance?",
+    "answer": "Henry (H).",
+    "tags": ["fundamentals", "units"],
+    "source": "Teach Yourself Electricity and Electronics – Stan Gibilisco"
+  },
+  {
+    "id": "F029",
+    "question": "What is the function of an inductor?",
+    "answer": "To store energy in a magnetic field.",
+    "tags": ["fundamentals", "components"],
+    "source": "Fundamentals of Electric Circuit – Sadiku"
+  },
+  {
+    "id": "F030",
+    "question": "What is Kirchhoff’s Voltage Law (KVL)?",
+    "answer": "The sum of all voltages around a closed loop is zero.",
+    "tags": ["fundamentals", "kirchhoff"],
+    "source": "Engineering Circuit Analysis – Hayt"
+  },
+  {
+    "id": "F031",
+    "question": "What is Kirchhoff’s Current Law (KCL)?",
+    "answer": "The sum of currents entering a junction equals the sum leaving.",
+    "tags": ["fundamentals", "kirchhoff"],
+    "source": "Engineering Circuit Analysis – Hayt"
+  },
+  {
+    "id": "F032",
+    "question": "What is a logic gate?",
+    "answer": "An electronic device that implements a Boolean function.",
+    "tags": ["combinational", "logic"],
+    "source": "Fundamentals of Electric Circuit – Sadiku"
+  },
+  {
+    "id": "F033",
+    "question": "Name three basic logic gates.",
+    "answer": "AND, OR, NOT.",
+    "tags": ["combinational", "logic"],
+    "source": "Principles of Electronics – V&R Mehta"
+  },
+  {
+    "id": "F034",
+    "question": "What is a truth table?",
+    "answer": "A table showing all possible input and output combinations for a logic circuit.",
+    "tags": ["combinational", "logic"],
+    "source": "Teach Yourself Electricity and Electronics – Stan Gibilisco"
+  },
+  {
+    "id": "F035",
+    "question": "What is a rectifier?",
+    "answer": "A circuit that converts AC to DC.",
+    "tags": ["diodes", "applications"],
+    "source": "Principles of Electronics – V&R Mehta"
+  },
+  {
+    "id": "F036",
+    "question": "What is a filter circuit?",
+    "answer": "A circuit that removes unwanted frequencies from a signal.",
+    "tags": ["fundamentals", "applications"],
+    "source": "Electrical Circuit Theory and Technology – John Bird"
+  },
+  {
+    "id": "F037",
+    "question": "What is the unit of frequency?",
+    "answer": "Hertz (Hz).",
+    "tags": ["fundamentals", "units"],
+    "source": "Teach Yourself Electricity and Electronics – Stan Gibilisco"
+  },
+  {
+    "id": "F038",
+    "question": "What is a transformer?",
+    "answer": "A device that transfers electrical energy between circuits by electromagnetic induction.",
+    "tags": ["fundamentals", "components"],
+    "source": "Principles of Electronics – V&R Mehta"
+  },
+  {
+    "id": "F039",
+    "question": "What is the function of a fuse?",
+    "answer": "To protect circuits by breaking the connection when current exceeds a safe level.",
+    "tags": ["fundamentals", "components"],
+    "source": "Fundamentals of Electric Circuit – Sadiku"
+  },
+  {
+    "id": "F040",
+    "question": "What is a relay?",
+    "answer": "An electrically operated switch.",
+    "tags": ["fundamentals", "components"],
+    "source": "Teach Yourself Electricity and Electronics – Stan Gibilisco"
+  }  ,
+  {
+    "id": "F041",
+    "question": "What is a potentiometer?",
+    "answer": "A variable resistor used to adjust voltage.",
+    "tags": ["fundamentals", "components"],
+    "source": "Principles of Electronics – V&R Mehta"
+  },
+  {
+    "id": "F042",
+    "question": "What is a rheostat?",
+    "answer": "A variable resistor used to control current.",
+    "tags": ["fundamentals", "components"],
+    "source": "Electrical Circuit Theory and Technology – John Bird"
+  },
+  {
+    "id": "F043",
+    "question": "What is a multimeter?",
+    "answer": "An instrument used to measure voltage, current, and resistance.",
+    "tags": ["fundamentals", "tools"],
+    "source": "Teach Yourself Electricity and Electronics – Stan Gibilisco"
+  },
+  {
+    "id": "F044",
+    "question": "What is a breadboard?",
+    "answer": "A device for prototyping electronic circuits without soldering.",
+    "tags": ["fundamentals", "tools"],
+    "source": "Fundamentals of Electric Circuit – Sadiku"
+  },
+  {
+    "id": "F045",
+    "question": "What is a short circuit?",
+    "answer": "A low-resistance connection between two points causing excessive current.",
+    "tags": ["fundamentals", "safety"],
+    "source": "Principles of Electronics – V&R Mehta"
+  },
+  {
+    "id": "F046",
+    "question": "What is an open circuit?",
+    "answer": "A circuit with a break preventing current flow.",
+    "tags": ["fundamentals", "safety"],
+    "source": "Electrical Circuit Theory and Technology – John Bird"
+  },
+  {
+    "id": "F047",
+    "question": "What is a series circuit?",
+    "answer": "A circuit in which components are connected end-to-end so current flows through each in turn.",
+    "tags": ["fundamentals", "circuits"],
+    "source": "Teach Yourself Electricity and Electronics – Stan Gibilisco"
+  },
+  {
+    "id": "F048",
+    "question": "What is a parallel circuit?",
+    "answer": "A circuit in which components are connected across the same voltage source.",
+    "tags": ["fundamentals", "circuits"],
+    "source": "Fundamentals of Electric Circuit – Sadiku"
+  },
+  {
+    "id": "F049",
+    "question": "What is the total resistance in a series circuit?",
+    "answer": "The sum of the individual resistances.",
+    "tags": ["fundamentals", "circuits"],
+    "source": "Principles of Electronics – V&R Mehta"
+  },
+  {
+    "id": "F050",
+    "question": "What is the total resistance in a parallel circuit?",
+    "answer": "Less than the smallest individual resistance; calculated by 1/Rt = 1/R1 + 1/R2 + ...",
+    "tags": ["fundamentals", "circuits"],
+    "source": "Electrical Circuit Theory and Technology – John Bird"
+  },
+  {
+    "id": "F051",
+    "question": "What is a node in a circuit?",
+    "answer": "A point where two or more circuit elements meet.",
+    "tags": ["fundamentals", "circuits"],
+    "source": "Teach Yourself Electricity and Electronics – Stan Gibilisco"
+  },
+  {
+    "id": "F052",
+    "question": "What is a mesh in circuit analysis?",
+    "answer": "A loop that does not contain any other loops within it.",
+    "tags": ["fundamentals", "circuits"],
+    "source": "Fundamentals of Electric Circuit – Sadiku"
+  },
+  {
+    "id": "F053",
+    "question": "What is the function of a switch?",
+    "answer": "To open or close an electrical circuit.",
+    "tags": ["fundamentals", "components"],
+    "source": "Principles of Electronics – V&R Mehta"
+  },
+  {
+    "id": "F054",
+    "question": "What is a load in a circuit?",
+    "answer": "Any component that consumes electrical power.",
+    "tags": ["fundamentals", "circuits"],
+    "source": "Electrical Circuit Theory and Technology – John Bird"
+  },
+  {
+    "id": "F055",
+    "question": "What is a ground in a circuit?",
+    "answer": "A reference point of zero voltage.",
+    "tags": ["fundamentals", "circuits"],
+    "source": "Teach Yourself Electricity and Electronics – Stan Gibilisco"
+  },
+  {
+    "id": "F056",
+    "question": "What is a voltage divider?",
+    "answer": "A circuit that produces a fraction of its input voltage.",
+    "tags": ["fundamentals", "circuits"],
+    "source": "Fundamentals of Electric Circuit – Sadiku"
+  },
+  {
+    "id": "F057",
+    "question": "What is a current divider?",
+    "answer": "A circuit that splits current among parallel branches.",
+    "tags": ["fundamentals", "circuits"],
+    "source": "Principles of Electronics – V&R Mehta"
+  },
+  {
+    "id": "F058",
+    "question": "What is the function of a battery?",
+    "answer": "To provide a source of electrical energy.",
+    "tags": ["fundamentals", "components"],
+    "source": "Electrical Circuit Theory and Technology – John Bird"
+  },
+  {
+    "id": "F059",
+    "question": "What is the unit of electric charge?",
+    "answer": "Coulomb (C).",
+    "tags": ["fundamentals", "units"],
+    "source": "Teach Yourself Electricity and Electronics – Stan Gibilisco"
+  },
+  {
+    "id": "F060",
+    "question": "What is the unit of magnetic flux?",
+    "answer": "Weber (Wb).",
+    "tags": ["fundamentals", "units"],
+    "source": "Fundamentals of Electric Circuit – Sadiku"
+  }
+]

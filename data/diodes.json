@@ -1,0 +1,702 @@
+[
+  {
+    "id": "DC001",
+    "question": "What is a diode circuit?",
+    "answer": "A circuit that uses diodes to control the direction of current flow.",
+    "tags": ["diode-circuits", "definition"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC002",
+    "question": "What is a rectifier circuit?",
+    "answer": "A circuit that converts AC to DC using diodes.",
+    "tags": ["diode-circuits", "rectifier"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC003",
+    "question": "What is a half-wave rectifier?",
+    "answer": "A circuit that uses one diode to pass only one half of the AC waveform.",
+    "tags": ["diode-circuits", "rectifier"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC004",
+    "question": "What is a full-wave rectifier?",
+    "answer": "A circuit that uses two or more diodes to pass both halves of the AC waveform.",
+    "tags": ["diode-circuits", "rectifier"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC005",
+    "question": "What is a bridge rectifier?",
+    "answer": "A rectifier circuit using four diodes in a bridge configuration.",
+    "tags": ["diode-circuits", "rectifier"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC006",
+    "question": "What is the output waveform of a half-wave rectifier?",
+    "answer": "Pulsating DC with gaps during the negative half cycle.",
+    "tags": ["diode-circuits", "rectifier"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC007",
+    "question": "What is the output waveform of a full-wave rectifier?",
+    "answer": "Pulsating DC with both halves of the AC cycle.",
+    "tags": ["diode-circuits", "rectifier"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC008",
+    "question": "What is the peak inverse voltage (PIV) in a diode circuit?",
+    "answer": "The maximum reverse voltage a diode can withstand.",
+    "tags": ["diode-circuits", "characteristics"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC009",
+    "question": "What is the ripple factor in rectifier circuits?",
+    "answer": "A measure of the AC content in the rectified output.",
+    "tags": ["diode-circuits", "rectifier"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC010",
+    "question": "What is the efficiency of a rectifier circuit?",
+    "answer": "The ratio of DC output power to AC input power.",
+    "tags": ["diode-circuits", "rectifier"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC011",
+    "question": "What is a filter circuit in diode rectifiers?",
+    "answer": "A circuit that smooths the rectified output using capacitors or inductors.",
+    "tags": ["diode-circuits", "filter"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC012",
+    "question": "What is a capacitor filter?",
+    "answer": "A filter that uses a capacitor to reduce ripple in the rectified output.",
+    "tags": ["diode-circuits", "filter"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC013",
+    "question": "What is an inductor filter?",
+    "answer": "A filter that uses an inductor to smooth the rectified output.",
+    "tags": ["diode-circuits", "filter"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC014",
+    "question": "What is a pi filter?",
+    "answer": "A filter circuit using a capacitor, inductor, and another capacitor in a pi shape.",
+    "tags": ["diode-circuits", "filter"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC015",
+    "question": "What is a voltage doubler circuit?",
+    "answer": "A circuit that uses diodes and capacitors to double the input voltage.",
+    "tags": ["diode-circuits", "multiplier"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC016",
+    "question": "What is a voltage tripler circuit?",
+    "answer": "A circuit that triples the input voltage using diodes and capacitors.",
+    "tags": ["diode-circuits", "multiplier"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC017",
+    "question": "What is a voltage quadrupler circuit?",
+    "answer": "A circuit that quadruples the input voltage using diodes and capacitors.",
+    "tags": ["diode-circuits", "multiplier"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC018",
+    "question": "What is a clamping circuit?",
+    "answer": "A circuit that shifts the voltage level of a signal using diodes.",
+    "tags": ["diode-circuits", "clamp"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC019",
+    "question": "What is a positive clamper?",
+    "answer": "A circuit that shifts the signal upwards so the lowest point is at zero volts.",
+    "tags": ["diode-circuits", "clamp"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC020",
+    "question": "What is a negative clamper?",
+    "answer": "A circuit that shifts the signal downwards so the highest point is at zero volts.",
+    "tags": ["diode-circuits", "clamp"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC021",
+    "question": "What is a biased clamper?",
+    "answer": "A clamper circuit that uses a DC bias to set the clamped level.",
+    "tags": ["diode-circuits", "clamp"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC022",
+    "question": "What is a clipping circuit?",
+    "answer": "A circuit that limits the amplitude of a signal using diodes.",
+    "tags": ["diode-circuits", "clipper"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC023",
+    "question": "What is a series clipper?",
+    "answer": "A clipper circuit with the diode in series with the load.",
+    "tags": ["diode-circuits", "clipper"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC024",
+    "question": "What is a shunt clipper?",
+    "answer": "A clipper circuit with the diode in parallel with the load.",
+    "tags": ["diode-circuits", "clipper"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC025",
+    "question": "What is a biased clipper?",
+    "answer": "A clipper circuit that uses a DC bias to set the clipping level.",
+    "tags": ["diode-circuits", "clipper"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC026",
+    "question": "What is a double clipper?",
+    "answer": "A circuit that clips both the positive and negative peaks of a signal.",
+    "tags": ["diode-circuits", "clipper"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC027",
+    "question": "What is a voltage regulator circuit?",
+    "answer": "A circuit that maintains a constant output voltage using diodes.",
+    "tags": ["diode-circuits", "regulator"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC028",
+    "question": "What is a Zener diode voltage regulator?",
+    "answer": "A regulator circuit using a Zener diode to stabilize voltage.",
+    "tags": ["diode-circuits", "regulator"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC029",
+    "question": "What is a voltage reference circuit?",
+    "answer": "A circuit that provides a stable reference voltage using diodes.",
+    "tags": ["diode-circuits", "reference"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC030",
+    "question": "What is a protection circuit?",
+    "answer": "A circuit that protects devices from voltage spikes using diodes.",
+    "tags": ["diode-circuits", "protection"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC031",
+    "question": "What is a snubber circuit?",
+    "answer": "A circuit that protects switching devices from voltage spikes using diodes.",
+    "tags": ["diode-circuits", "protection"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC032",
+    "question": "What is a flyback diode?",
+    "answer": "A diode used to provide a path for current when a switch is off in inductive loads.",
+    "tags": ["diode-circuits", "protection"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC033",
+    "question": "What is a freewheeling diode?",
+    "answer": "A diode that allows current to circulate in inductive loads.",
+    "tags": ["diode-circuits", "protection"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC034",
+    "question": "What is a crowbar circuit?",
+    "answer": "A protection circuit that shorts the supply during overvoltage using diodes.",
+    "tags": ["diode-circuits", "protection"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC035",
+    "question": "What is a relay driver circuit?",
+    "answer": "A circuit that uses a diode to prevent back EMF from damaging the driver.",
+    "tags": ["diode-circuits", "protection"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC036",
+    "question": "What is a battery charger circuit?",
+    "answer": "A circuit that uses a diode to prevent reverse current flow.",
+    "tags": ["diode-circuits", "charger"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC037",
+    "question": "What is a polarity protection circuit?",
+    "answer": "A circuit that uses a diode to protect against incorrect polarity connections.",
+    "tags": ["diode-circuits", "protection"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC038",
+    "question": "What is a logic level shifter?",
+    "answer": "A circuit that uses diodes to shift voltage levels between circuits.",
+    "tags": ["diode-circuits", "logic"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC039",
+    "question": "What is an analog switch?",
+    "answer": "A circuit that uses diodes to control the flow of analog signals.",
+    "tags": ["diode-circuits", "switch"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC040",
+    "question": "What is a sample and hold circuit?",
+    "answer": "A circuit that uses diodes to store and maintain a voltage level.",
+    "tags": ["diode-circuits", "sample-hold"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC041",
+    "question": "What is a peak detector circuit?",
+    "answer": "A circuit that uses diodes to detect the peak value of a signal.",
+    "tags": ["diode-circuits", "detector"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC042",
+    "question": "What is an envelope detector circuit?",
+    "answer": "A circuit that uses diodes to recover the envelope of a modulated signal.",
+    "tags": ["diode-circuits", "detector"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC043",
+    "question": "What is a phase detector circuit?",
+    "answer": "A circuit that uses diodes to compare the phase of two signals.",
+    "tags": ["diode-circuits", "detector"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC044",
+    "question": "What is a mixer circuit?",
+    "answer": "A circuit that uses diodes to combine two signals for frequency conversion.",
+    "tags": ["diode-circuits", "mixer"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC045",
+    "question": "What is a limiter circuit?",
+    "answer": "A circuit that uses diodes to restrict the amplitude of a signal.",
+    "tags": ["diode-circuits", "limiter"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC046",
+    "question": "What is a voltage spike suppressor?",
+    "answer": "A circuit that uses diodes to absorb and suppress voltage spikes.",
+    "tags": ["diode-circuits", "protection"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC047",
+    "question": "What is a reverse polarity protection circuit?",
+    "answer": "A circuit that uses diodes to prevent damage from incorrect polarity connections.",
+    "tags": ["diode-circuits", "protection"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC048",
+    "question": "What is a voltage clamp circuit?",
+    "answer": "A circuit that uses diodes to prevent voltage from exceeding a certain level.",
+    "tags": ["diode-circuits", "clamp"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC049",
+    "question": "What is a voltage limiter circuit?",
+    "answer": "A circuit that uses diodes to restrict voltage to a safe level.",
+    "tags": ["diode-circuits", "limiter"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC050",
+    "question": "What is a voltage multiplier circuit?",
+    "answer": "A circuit that uses diodes and capacitors to increase the output voltage.",
+    "tags": ["diode-circuits", "multiplier"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC051",
+    "question": "What is a diode logic circuit?",
+    "answer": "A circuit that uses diodes to perform logical operations like AND and OR.",
+    "tags": ["diode-circuits", "logic"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC052",
+    "question": "What is a diode matrix?",
+    "answer": "A circuit arrangement using diodes for encoding or decoding signals.",
+    "tags": ["diode-circuits", "logic"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC053",
+    "question": "What is a diode ring mixer?",
+    "answer": "A mixer circuit using four diodes in a ring configuration.",
+    "tags": ["diode-circuits", "mixer"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC054",
+    "question": "What is a diode bridge?",
+    "answer": "A configuration of four diodes used for rectification.",
+    "tags": ["diode-circuits", "rectifier"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC055",
+    "question": "What is a diode pump circuit?",
+    "answer": "A circuit that uses diodes to transfer charge for voltage multiplication.",
+    "tags": ["diode-circuits", "multiplier"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC056",
+    "question": "What is a diode modulator circuit?",
+    "answer": "A circuit that uses diodes to modulate signals.",
+    "tags": ["diode-circuits", "modulator"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC057",
+    "question": "What is a diode demodulator circuit?",
+    "answer": "A circuit that uses diodes to demodulate signals.",
+    "tags": ["diode-circuits", "demodulator"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC058",
+    "question": "What is a diode phase shifter?",
+    "answer": "A circuit that uses diodes to shift the phase of a signal.",
+    "tags": ["diode-circuits", "phase-shifter"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC059",
+    "question": "What is a diode attenuator?",
+    "answer": "A circuit that uses diodes to reduce the amplitude of a signal.",
+    "tags": ["diode-circuits", "attenuator"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC060",
+    "question": "What is a diode switch?",
+    "answer": "A circuit that uses diodes to switch signals on and off.",
+    "tags": ["diode-circuits", "switch"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC061",
+    "question": "What is a diode OR gate?",
+    "answer": "A logic gate circuit using diodes to perform the OR operation.",
+    "tags": ["diode-circuits", "logic"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC062",
+    "question": "What is a diode AND gate?",
+    "answer": "A logic gate circuit using diodes to perform the AND operation.",
+    "tags": ["diode-circuits", "logic"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC063",
+    "question": "What is a diode exclusive OR (XOR) gate?",
+    "answer": "A logic gate circuit using diodes to perform the XOR operation.",
+    "tags": ["diode-circuits", "logic"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC064",
+    "question": "What is a diode exclusive NOR (XNOR) gate?",
+    "answer": "A logic gate circuit using diodes to perform the XNOR operation.",
+    "tags": ["diode-circuits", "logic"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC065",
+    "question": "What is a diode voltage detector?",
+    "answer": "A circuit that uses diodes to detect voltage levels.",
+    "tags": ["diode-circuits", "detector"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC066",
+    "question": "What is a diode current detector?",
+    "answer": "A circuit that uses diodes to detect current flow.",
+    "tags": ["diode-circuits", "detector"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC067",
+    "question": "What is a diode frequency detector?",
+    "answer": "A circuit that uses diodes to detect frequency changes.",
+    "tags": ["diode-circuits", "detector"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC068",
+    "question": "What is a diode amplitude detector?",
+    "answer": "A circuit that uses diodes to detect amplitude changes.",
+    "tags": ["diode-circuits", "detector"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC069",
+    "question": "What is a diode signal rectifier?",
+    "answer": "A circuit that uses diodes to rectify signals.",
+    "tags": ["diode-circuits", "rectifier"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC070",
+    "question": "What is a diode signal inverter?",
+    "answer": "A circuit that uses diodes to invert signals.",
+    "tags": ["diode-circuits", "inverter"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC071",
+    "question": "What is a diode signal combiner?",
+    "answer": "A circuit that uses diodes to combine multiple signals.",
+    "tags": ["diode-circuits", "combiner"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC072",
+    "question": "What is a diode signal splitter?",
+    "answer": "A circuit that uses diodes to split signals into multiple paths.",
+    "tags": ["diode-circuits", "splitter"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC073",
+    "question": "What is a diode signal isolator?",
+    "answer": "A circuit that uses diodes to isolate signals between circuits.",
+    "tags": ["diode-circuits", "isolator"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC074",
+    "question": "What is a diode signal coupler?",
+    "answer": "A circuit that uses diodes to couple signals between circuits.",
+    "tags": ["diode-circuits", "coupler"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC075",
+    "question": "What is a diode signal amplifier?",
+    "answer": "A circuit that uses diodes to amplify signals.",
+    "tags": ["diode-circuits", "amplifier"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC076",
+    "question": "What is a diode signal attenuator?",
+    "answer": "A circuit that uses diodes to attenuate signals.",
+    "tags": ["diode-circuits", "attenuator"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC077",
+    "question": "What is a diode signal modulator?",
+    "answer": "A circuit that uses diodes to modulate signals.",
+    "tags": ["diode-circuits", "modulator"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC078",
+    "question": "What is a diode signal demodulator?",
+    "answer": "A circuit that uses diodes to demodulate signals.",
+    "tags": ["diode-circuits", "demodulator"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC079",
+    "question": "What is a diode signal phase shifter?",
+    "answer": "A circuit that uses diodes to shift the phase of signals.",
+    "tags": ["diode-circuits", "phase-shifter"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC080",
+    "question": "What is a diode signal mixer?",
+    "answer": "A circuit that uses diodes to mix signals.",
+    "tags": ["diode-circuits", "mixer"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC081",
+    "question": "What is a diode signal limiter?",
+    "answer": "A circuit that uses diodes to limit signal amplitude.",
+    "tags": ["diode-circuits", "limiter"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC082",
+    "question": "What is a diode signal regulator?",
+    "answer": "A circuit that uses diodes to regulate signal levels.",
+    "tags": ["diode-circuits", "regulator"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC083",
+    "question": "What is a diode signal reference?",
+    "answer": "A circuit that uses diodes to provide a reference signal.",
+    "tags": ["diode-circuits", "reference"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC084",
+    "question": "What is a diode signal protection circuit?",
+    "answer": "A circuit that uses diodes to protect signals from damage.",
+    "tags": ["diode-circuits", "protection"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC085",
+    "question": "What is a diode signal charger?",
+    "answer": "A circuit that uses diodes to charge signals.",
+    "tags": ["diode-circuits", "charger"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC086",
+    "question": "What is a diode signal polarity protection circuit?",
+    "answer": "A circuit that uses diodes to protect against incorrect polarity.",
+    "tags": ["diode-circuits", "protection"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC087",
+    "question": "What is a diode signal level shifter?",
+    "answer": "A circuit that uses diodes to shift signal levels.",
+    "tags": ["diode-circuits", "logic"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC088",
+    "question": "What is a diode signal analog switch?",
+    "answer": "A circuit that uses diodes to switch analog signals.",
+    "tags": ["diode-circuits", "switch"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC089",
+    "question": "What is a diode signal sample and hold circuit?",
+    "answer": "A circuit that uses diodes to sample and hold signal levels.",
+    "tags": ["diode-circuits", "sample-hold"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC090",
+    "question": "What is a diode signal peak detector circuit?",
+    "answer": "A circuit that uses diodes to detect signal peaks.",
+    "tags": ["diode-circuits", "detector"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC091",
+    "question": "What is a diode signal voltage doubler circuit?",
+    "answer": "A circuit that uses diodes to double signal voltage.",
+    "tags": ["diode-circuits", "multiplier"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC092",
+    "question": "What is a diode signal voltage tripler circuit?",
+    "answer": "A circuit that uses diodes to triple signal voltage.",
+    "tags": ["diode-circuits", "multiplier"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC093",
+    "question": "What is a diode signal voltage quadrupler circuit?",
+    "answer": "A circuit that uses diodes to quadruple signal voltage.",
+    "tags": ["diode-circuits", "multiplier"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC094",
+    "question": "What is a diode signal bridge rectifier?",
+    "answer": "A circuit that uses diodes to rectify signals in a bridge configuration.",
+    "tags": ["diode-circuits", "rectifier"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC095",
+    "question": "What is a diode signal center-tap rectifier?",
+    "answer": "A circuit that uses diodes and a center-tapped transformer to rectify signals.",
+    "tags": ["diode-circuits", "rectifier"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC096",
+    "question": "What is a diode signal voltage clamp circuit?",
+    "answer": "A circuit that uses diodes to clamp signal voltage.",
+    "tags": ["diode-circuits", "clamp"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC097",
+    "question": "What is a diode signal voltage limiter circuit?",
+    "answer": "A circuit that uses diodes to limit signal voltage.",
+    "tags": ["diode-circuits", "limiter"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC098",
+    "question": "What is a diode signal voltage spike suppressor?",
+    "answer": "A circuit that uses diodes to suppress signal voltage spikes.",
+    "tags": ["diode-circuits", "protection"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC099",
+    "question": "What is a diode signal reverse polarity protection circuit?",
+    "answer": "A circuit that uses diodes to protect signals from reverse polarity.",
+    "tags": ["diode-circuits", "protection"],
+    "source": "JIECEP Library"
+  },
+  {
+    "id": "DC100",
+    "question": "What is a diode signal crowbar circuit?",
+    "answer": "A circuit that uses diodes to protect signals by shorting during overvoltage.",
+    "tags": ["diode-circuits", "protection"],
+    "source": "JIECEP Library"
+  }
+]
