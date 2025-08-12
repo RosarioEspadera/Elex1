@@ -8,7 +8,7 @@ let cards = [];
 let currentIndex = 0;
 
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("/sw.js").then(() => {
+  navigator.serviceWorker.register("../sw.js").then(() => {
     console.log("Service Worker registered.");
   });
 }
@@ -16,8 +16,8 @@ if ("serviceWorker" in navigator) {
 // Load cards from JSON file
 async function loadCards(topicFile) {
   try {
-    const response = await fetch(`./${topicFile}`);
-    const data = await response.json();
+   const response = await fetch(`data/${topic}.json`);
+    const cards = await response.json();
 
     if (!Array.isArray(data)) {
       console.error("Invalid JSON format: expected an array.");
