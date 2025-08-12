@@ -21,7 +21,6 @@ body {
 
 /* Topic navigation */
 .topic-nav {
-  position: absolute;
   top: 1rem;
   left: 1rem;
 }
