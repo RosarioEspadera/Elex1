@@ -9,11 +9,17 @@ const nextBtn = document.getElementById("next");
 const bookmarkBtn = document.getElementById("bookmark");
 const topicNav = document.getElementById("topic-nav");
 
-function showCard(cardElement) {
-  cardElement.classList.remove('slide-in');
-  void cardElement.offsetWidth; // trigger reflow
-  cardElement.classList.add('slide-in');
+function showCard(index) {
+  const card = cards[index];
+  if (!card) {
+    console.warn(`Card at index ${index} is undefined.`);
+    return;
+  }
+
+  document.getElementById('card-question').textContent = card.question;
+  document.getElementById('card-answer').textContent = card.answer;
 }
+
 
 topicNav.addEventListener("click", async (e) => {
   if (e.target.tagName === "LI") {
