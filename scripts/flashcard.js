@@ -9,6 +9,12 @@ const nextBtn = document.getElementById("next");
 const bookmarkBtn = document.getElementById("bookmark");
 const topicNav = document.getElementById("topic-nav");
 
+function showCard(cardElement) {
+  cardElement.classList.remove('slide-in');
+  void cardElement.offsetWidth; // trigger reflow
+  cardElement.classList.add('slide-in');
+}
+
 topicNav.addEventListener("click", async (e) => {
   if (e.target.tagName === "LI") {
     const topic = e.target.dataset.topic;
