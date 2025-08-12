@@ -73,5 +73,5 @@ topicNav.addEventListener("click", async (e) => {
 
 // Initial load
 document.addEventListener("DOMContentLoaded", () => {
-  loadCards("introsemiconductors.json"); // default topic
+  loadCards("data/introsemiconductors.json"); // default topic
 });
