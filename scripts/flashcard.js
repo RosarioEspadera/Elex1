@@ -7,11 +7,6 @@ const topicNav = document.getElementById("topic-nav");
 let cards = [];
 let currentIndex = 0;
 
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("../sw.js").then(() => {
-    console.log("Service Worker registered.");
-  });
-}
 
 // Load cards from JSON file
 async function loadCards(topicFile) {
